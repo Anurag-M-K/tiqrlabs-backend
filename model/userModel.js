@@ -18,6 +18,10 @@ const userSchema = new mongoose.Schema({
         type:mongoose.Schema.Types.ObjectId,
         ref:'Event'
     }],
+    yourwork:{
+      type:String,
+      reqruied:true
+    },
     eventInvitations: [{
         eventId: {
           type: mongoose.Schema.Types.ObjectId,

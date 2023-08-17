@@ -20,7 +20,6 @@ app.use(cors());
 
 app.use("/api",userRouter);
 app.use("/api/event",eventRouter)
-// io.listen(5000)
 app.listen(PORT, () => {
     console.log(`Server running at ${PORT}`);
   });
